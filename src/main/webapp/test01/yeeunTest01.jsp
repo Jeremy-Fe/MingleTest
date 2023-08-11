@@ -4,14 +4,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>로그인</title>
+ <link rel="stylesheet" href="${pageContext.request.contextPath}/css/login.css" type="text/css">
 </head>
 <body>
-	hihi
-	다시합시다~
-	222
-	33
-	33
-	와하하
+	<div id="wrap">
+		<section id="contents">
+			<div class="logo"></div>
+		</section>
+	</div>
 </body>
 </html>

@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* 글꼴 */
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* 초기화 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #333;
+    font-family: 'GmarketSansMedium';
+    font-weight: 300;
+}
+li{
+    list-style: none;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+img{
+    display: block;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+    font-size: 14px;
+}
+.clearfix::after, .clearfix::before{
+    content: "";
+    display: block;
+    clear: both;
+}
+li{
+	color: red;
+}
+
+/* 전체영역 */
+#wrap{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+body{
+	background: linear-gradient(90deg, #B1B2FF, #AAC4FF);
+}
+
+#contents{
+	width: 1200px;
+	height: 670px;
+	background-color: #FFFFFF;
+	opacity: 0.84;
+	border-radius: 20px;
+	margin: 0 auto;
+}

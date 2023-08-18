@@ -77,6 +77,7 @@ p{
 										infowindow.open(map, marker);
 									});
 						});
+		
 	</script>
 </body>
 </html>

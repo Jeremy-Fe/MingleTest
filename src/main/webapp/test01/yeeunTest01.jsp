@@ -11,7 +11,6 @@
 	<div id="wrap">
 		<section id="contents">
 			<div class="logo"></div>
-
 		</section>
 	</div>
 </body>

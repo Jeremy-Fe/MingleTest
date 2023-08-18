@@ -42,9 +42,9 @@ p{
 		$(document)
 				.ready(
 						function() {
-							var myLatlng = new google.maps.LatLng(37.466864,126.9009867); // 위치값 위도 경도
-							var Y_point = 37.466864; // Y 좌표
-							var X_point = 126.9009867; // X 좌표
+							var myLatlng = new google.maps.LatLng(37.4601718,126.8990748); // 위치값 위도 경도
+							var Y_point = 37.4601718; // Y 좌표
+							var X_point = 126.8990748; // X 좌표
 							var zoomLevel = 13; // 지도의 확대 레벨 : 숫자가 클수록 확대정도가 큼
 							var markerTitle = "금천구"; // 현재 위치 마커에 마우스를 오버을때 나타나는 정보
 							var markerMaxWidth = 300; // 마커를 클릭했을때 나타나는 말풍선의 최대 크기
